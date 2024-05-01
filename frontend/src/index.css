@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rating-text{
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  /* background-color: yellow; */
+  color:rgb(0, 0, 0);
+}
+
+.rating svg{
+  color: #f8e825;
+}
+
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
